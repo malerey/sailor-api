@@ -1,0 +1,22 @@
+{
+  "name": "nodeimage",
+  "version": "1.0.0",
+  "description": "Generate random image",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "random",
+    "images"
+  ],
+  "author": "Arjun Komath",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "fs": ">0.0.0",
+    "jimp": "^0.2.4",
+    "promise": "^7.0.4",
+    "stream": "0.0.2"
+  }
+}
